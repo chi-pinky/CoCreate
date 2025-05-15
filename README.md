@@ -36,9 +36,11 @@ Navigate to the repository folder:
 bash
 cd CoCreate
 Run the Python scripts for each lab work:
-For Lab Work 1: python lab_work_1.py
-For Lab Work 2: python lab_work_2.py
-For Lab Work 3: python lab_work_3.py
+For Lab Work 1: python lab.py
+
+For Lab Work 2: python lab2.py
+
+For Lab Work 3: python lab3.py
 
 # Requirements
 Python 3.x
