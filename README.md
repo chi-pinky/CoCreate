@@ -1,46 +1,75 @@
-# CoCreate
-This repository contains Python programs for practicing basic programming concepts. Below are the lab work exercises included:
+# CoCreate - Week 2 Assignments
 
-# Lab Work 1: Conditional Statements
-The program takes an integer input n and performs the following actions:
+This repository contains Python solutions for foundational programming assignments, focused on iteration, user input, and basic logic.
 
-If n is odd, it prints Weird.
-If n is even and in the inclusive range of 2 to 5, it prints Not Weird.
-If n is even and in the inclusive range of 6 to 20, it prints Weird.
-If n is even and greater than 20, it prints Not Weird.
+---
 
+## Assignment 1: Sum of Numbers
+This assignment demonstrates how to sum a list of numbers using a `for` loop. The program iterates through a predefined list and accumulates the total, showcasing basic list handling and arithmetic operations.
 
-# Lab Work 2: House Downpayment Calculator
-This program calculates the downpayment for a house based on the user's budget and the following rules:
+**Features:**
+- Iterates over a list of numbers.
+- Calculates and prints the sum of all the numbers.
 
-If the house price is between $300,000 and $500,000 (inclusive), the downpayment is 10% of the budgeted amount.
-If the house price is above $500,000, the downpayment is 20% of the budgeted amount.
-The formula for calculating the downpayment is:
+**How to Run**
+```bash
+python assignment1.py
+```
 
-Code
-downpayment = (percentage / 100) * budgeted_price
+---
 
+## Assignment 2: Number Guessing Game
+This assignment is a simple guessing game. The program selects a secret number and gives the user a limited number of attempts to guess it. The user is prompted for guesses, and the program provides feedback after each attempt.
 
+**Features:**
+- Uses a `while` loop to manage the number of guesses.
+- Accepts user input and checks it against a secret number.
+- Provides winning and losing feedback.
 
-# Lab Work 3: Quiz Game
-This program is a simple quiz game where:
-The user is asked a series of questions.
-The program checks if the user's answers match the correct answers.
-Based on the user's responses, feedback is provided.
+**How to Run**
+```bash
+python assignment2.py
+```
 
-# How to Use
-Clone this repository:
-bash
-git clone https://github.com/chi-pinky/CoCreate.git
-Navigate to the repository folder:
-bash
-cd CoCreate
-Run the Python scripts for each lab work:
-For Lab Work 1: python lab.py
+---
 
-For Lab Work 2: python lab2.py
+## Assignment 3: List Manipulation and Name Input
+This assignment includes two interactive tasks:
+1. **Dynamic List and Sum:** Users enter numbers repeatedly, which are inserted at the start of a list. The sum is updated each time. The loop exits when a negative number is entered.
+2. **Name Entry Loop:** Users are prompted to enter names until "END" is typed, after which the program ends.
 
-For Lab Work 3: python lab3.py
+**Features:**
+- Demonstrates infinite loops with break conditions.
+- Shows list operations (insert at beginning) and running totals.
+- Handles string input termination.
 
-# Requirements
-Python 3.x
+**How to Run**
+```bash
+python assignment3.py
+```
+
+---
+
+## Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/chi-pinky/CoCreate.git
+   cd CoCreate
+   ```
+
+2. **Ensure you have Python 3.x installed**
+
+3. **Run each assignment as described above**
+
+---
+
+## Requirements
+
+- Python 3.x
+
+---
+
+## Additional Information
+
+Each assignment is designed to reinforce essential programming concepts. Modify and experiment with the code to deepen your understanding!
